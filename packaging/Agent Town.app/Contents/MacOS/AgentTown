@@ -1,0 +1,6 @@
+#!/bin/zsh
+set -eu
+
+project_dir="$HOME/Project/AgentTown"
+cd "$project_dir"
+exec "$project_dir/.venv/bin/pikachu-agent"

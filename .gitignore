@@ -1,0 +1,24 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+.env
+.env.*
+!.env.example
+data/*
+!data/.gitkeep
+workspace/*
+!workspace/.gitkeep
+
+# Optional character skins are local-only and are not distributed publicly.
+assets/pikachu.png
+assets/pikachu-animated.gif
+assets/dragonite.png
+assets/dragonite-animated.gif
+assets/porygon.png
+assets/porygon-animated.gif
+assets/meloetta.png
+assets/meloetta-animated.gif
+packaging/Agent Town.app/Contents/Resources/AgentTown.icns
